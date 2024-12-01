@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Make sure to replace 'survey_data.csv' with the actual path to your CSV file
-df = pd.read_csv(' /Users/adinai/Downloads/Новая\ форма.csv')
+df = pd.read_csv('/Users/adinai/statistics-/survey_data.csv')
 
 # Now, you can proceed with the analysis
 mean_screen_time = df['screen_time'].mean()
